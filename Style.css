@@ -1,0 +1,494 @@
+*{padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none ;
+list-style-type: none;
+font-family: "";
+
+}
+
+/*Partie body*/
+
+.nomliste{
+  color: #ffffffba;
+  font-weight:800;
+  cursor: pointer;
+
+}
+
+.liste_{
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.image4{
+  border-radius: 0 0 0.5vw 0.05vw;
+  background-image: url(image/image4.jpg);
+  position: relative;
+  width: 100%;
+  min-height: 100dvh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 8px 0px #000000ad;
+}
+
+.particle{
+  font-size: 177%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 2% 2% 2% 2%;
+  color: #403d3deb;;
+}
+
+.h22{color:#343a40d6;
+  
+  }
+
+ .image5div{
+  width: 50%;
+}
+  
+.titleicon{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 26%;
+    justify-content: space-between;
+    padding-right: 5%;
+    width: 91%;
+
+  }
+  
+  .cv{
+    border: solid 1px;
+    border-radius: 0.5vh;
+    background-color: #000000;
+    text-decoration: none;
+    color: rgb(237 237 237);
+}
+  
+  .h22{
+    margin: 1% 0 0 2%;
+  }
+  
+  .pp{
+    color:#ffffffba; 
+    margin-left: 5%;
+  }
+  
+  .pp1{
+    color:#ffffffba; 
+    margin-left: 5%;
+  }
+  
+  .pp2{
+    color:#ffffffba; 
+    margin-left: 5%;
+  }
+  
+  .pp3{
+    color:#ffffffba; 
+    margin-left: 5%;
+  }
+   .top-nav {
+   
+    width: 100%;
+  }
+   
+  .imgformulaire{
+    width: 280px;
+  }
+   
+  .img20min{
+    width: 251px;
+  }
+   
+  .imgplante{
+    width: 354px;
+  }
+  
+    
+    
+    .img1{
+      margin: 0% 2% 1%;
+      float: left;
+      width: 19vw;
+  }
+    .pp3{
+      padding-left: 1%;
+    }
+    .conpteur{
+      transform: rotate(-8deg);
+      padding-left: 42%;
+     } 
+     #counter{
+      font-size: 1em;
+      margin: 1rem;
+     
+     }
+
+.imgLinkin{
+  width: 9%;
+}
+
+
+  /*Partie Menu burger et top bar , home */
+  .menu {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(58 55 55 / 31%);
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    justify-content: flex-end;
+    
+  }
+  
+  .menu > li {
+    z-index: 2;
+    margin: 2px 1rem;
+    overflow: hidden;
+    font-size: 110%;
+    font-weight: bold;
+    margin-right: 4%;
+  }
+  
+  .menu-button-container {
+    z-index: 3;
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
+  
+    margin-top: 5%;
+    display: block;
+    background-color: #e58f8f;
+    position: fixed;
+    height: 4px;
+    width: 30px;
+    transition: transform 800ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+    margin-right: 13%;
+    
+  }
+  
+  .menu-button::before {
+    content: '';
+    margin-top: -8px;
+  }
+  
+  .menu-button::after {
+    content: '';
+    margin-top: 8px;
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button {
+    background: #e58f8f;
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+  }
+  .strongH2{
+    color:#e58f8f;
+  }
+  header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+  nav{
+    width: 100%;
+  }
+  .intro{
+    margin-top: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 25%;
+    font-size: clamp(25px, 0.5em, 0.5rem);
+    color: #ffffffba;
+    filter: brightness(123%);
+    margin-left: 5%;
+    background-color: #14141321;
+    margin-left: 7%;
+    padding-left: 0%;
+    border-radius: 2%;
+  }
+
+  .icon{
+    padding-left: 3%;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    font-size: 6vw;
+    width: 86%;
+    justify-content: space-between;
+    color: #e58f8f;
+    margin-top: 5vw;}
+
+  .Pheader{
+    color:  #ffffffba;
+  }
+/*Partie @media */
+  
+  @media (max-width: 700px) {
+   /*Partie body*/ 
+    
+    .img1{
+      padding-top: 1%;
+    margin: 1% 2% 1%;
+    float: left;
+    width: 28vw;
+    height: 24vh;
+  }
+    
+    
+    .particle{
+      font-size: 120%;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin: 4% 2% 2% 2%;}
+    
+    /* Partie menu header */
+    .menu-button-container {
+      display: flex;
+      z-index: 6;
+      justify-content: flex-start;
+    }
+    .image4{
+      position: relative;
+      width: 100%;
+      height: auto;
+      
+    }
+    .titleicon{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 26%;
+      justify-content: space-between;
+      
+      
+      width: 91%;
+      font-size: 4vw;
+    }
+
+    .nomliste{
+      margin-top: 11%;
+      color: #d38ec19e;
+      font-weight: 800;
+      cursor: pointer;}
+
+    .top-nav {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-start;
+      justify-content: space-between;
+      background-color: rgba(255, 255, 255, 0);
+      
+      }
+    .menu {
+      margin-bottom: 0%; 
+      padding-bottom: 2%;
+      position: fixed;
+      left: 0;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0%;
+      padding-top: 10%;
+    }
+    .icon{
+    
+      padding-left: 1%;
+      display: flex;
+      width: 80%;
+      margin: 0 auto;
+      position: absolute;
+      font-size: 10vw;
+      width: 90%;
+      justify-content: space-between;
+      color: #e58f8f;
+      margin-top: 4vw;
+      }
+
+    .intro {
+      margin-top: 29%;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin-right: 4%;
+      font-size: clamp(25px, 0.5em, 0.5rem);
+      color: #e58f8f;
+      filter: brightness(123%);
+      margin-left: 5%;
+      margin-left: 7%;
+      padding-left: 0%;
+      border-radius: 2%;}
+
+    #menu-toggle ~ .menu li {
+      height: 0;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked ~ .menu li {
+      
+      border-bottom: 2px solid #d38ec173;
+      height: 5.8em;;
+    padding: 0.5em;
+    transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1);
+    
+    opacity: 8;
+    }
+    .menu > li {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0.5em 0;
+      width: 100%;
+      
+      background-color: rgb(0 0 0 / 84%);
+    }
+    .menu > li:not(:last-child) {
+      border-bottom: 1px solid  rgb(181 166 111 / 85%);;
+      
+    }
+    .menu-button::after:hover{
+      animation:vibration none;
+      cursor: pointer;
+    }
+      
+    
+  }
+  @media (max-width: 490px) {
+    /*Partie body*/
+    
+    .particle{
+      font-size: 103%;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin: 2% 2% 2% 2%;}
+    
+    
+    
+    .img1{
+      padding-top: 1%;
+    margin: 1% 2% 1%;
+    float: left;
+    width: 35vw;
+    height: 19vh;
+  }
+
+  /*Partie header menu home */
+.intro{
+  font-size: clamp(18px, -0.5em, -1.5rem);
+}
+header{
+  height: 80%;
+}
+}
+/*Partie animation */
+
+@keyframes vibration {
+  0% {
+    transform: translateX(-2px) translateY(-2px);
+  }
+  25% {
+    transform: translateX(2px) translateY(2px);
+  }
+  50% {
+    transform: translateX(2px) translateY(-2px);
+  }
+  75% {
+    transform: translateX(-2px) translateY(2px);
+  }
+  100% {
+    transform: translateX(-2px) translateY(-2px);
+  }
+}
+button:hover{
+  animation:vibration 0.6s ease;}
+
+.bim:hover{
+  animation:vibration 0.6s ease;
+}
+.liste_:hover{
+  animation:vibration 0.4s ease;
+  
+}
+
+.fa-globe:hover{
+  animation:vibration 0.4s ease;
+  color: blue;
+  cursor: pointer;
+}
+.fa-mobile-alt:hover{
+  animation:vibration 0.4s ease;
+  color: red;
+  cursor: pointer;
+}
+.fa-pencil-ruler:hover{
+  animation:vibration 0.4s ease;
+  color: yellow;
+  cursor: pointer;
+}
+.menu-button::after:hover{
+  animation:vibration 0.4s ease;
+  cursor: pointer;
+}
+.fa-code:hover{
+  animation:vibration 0.4s ease;
+  color: green;
+  cursor: pointer;
+}
+
+.pp:hover{
+  animation:vibration 0.4s ease;
+  color: green;
+  cursor: pointer;
+}
+
+.pp1:hover{
+  animation:vibration 0.4s ease;
+  color: red;
+  cursor: pointer;
+}
+
+.pp2:hover{
+  animation:vibration 0.4s ease;
+  color: yellow;
+  cursor: pointer;
+}
+
+.pp3:hover{
+  animation:vibration 0.4s ease;
+  color: blue;
+  cursor: pointer;
+}
+.cv:hover{
+  animation:vibration 0.4s ease;
+  color: red;
+  cursor: pointer;
+}
